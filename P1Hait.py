@@ -261,4 +261,3 @@ app = QApplication(sys.argv)
 ex = P1Main()
 ex.show()
 sys.exit(app.exec_())
-
