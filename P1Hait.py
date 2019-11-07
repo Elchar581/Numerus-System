@@ -99,7 +99,7 @@ class P1B1(QWidget):  # Окно с переводчиком С.С.
                     a3 -= a3 % b2
                     a3 //= 8
                     if a3 < 8:
-                        a4.append('1')
+                        a4.append(a3)
                 self.kin1.setText(str(''.join(a4[::-1])))
             if c2 == 'Десятиричная':
                 while a3 >= b2:
@@ -107,7 +107,7 @@ class P1B1(QWidget):  # Окно с переводчиком С.С.
                     a3 -= a3 % b2
                     a3 //= 10
                     if a3 < 10:
-                        a4.append('1')
+                        a4.append(a3)
                 self.kin1.setText(str(''.join(a4[::-1])))
             if c2 == 'Шестнадцатиричная':
                 while a3 >= b2:
@@ -115,7 +115,7 @@ class P1B1(QWidget):  # Окно с переводчиком С.С.
                     a3 -= a3 % b2
                     a3 //= 16
                     if a3 < 16:
-                        a4.append('1')
+                        a4.append(a3)
                 self.kin1.setText(str(''.join(a4[::-1])))
 
 
@@ -236,7 +236,7 @@ class P1B2(QWidget):  # Открывает окно с калькуляторо�
                     a3 -= a3 % b2
                     a3 //= 8
                     if a3 < 8:
-                        a4.append('1')
+                        a4.append(a3)
                 self.X2B.setText(str(''.join(a4[::-1])))
             if c2 == 'Десятиричная':
                 while a3 >= b2:
@@ -244,7 +244,7 @@ class P1B2(QWidget):  # Открывает окно с калькуляторо�
                     a3 -= a3 % b2
                     a3 //= 10
                     if a3 < 10:
-                        a4.append('1')
+                        a4.append(a3)
                 self.X2B.setText(str(''.join(a4[::-1])))
             if c2 == 'Шестнадцатиричная':
                 while a3 >= b2:
@@ -252,7 +252,7 @@ class P1B2(QWidget):  # Открывает окно с калькуляторо�
                     a3 -= a3 % b2
                     a3 //= 16
                     if a3 < 16:
-                        a4.append('1')
+                        a4.append(a3)
                 self.X2B.setText(str(''.join(a4[::-1])))
 
 
