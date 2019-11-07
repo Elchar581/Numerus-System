@@ -1,8 +1,7 @@
 import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow
-from PyQt5.QtWidgets import QWidget, QApplication, QPushButton, QLabel, QLineEdit
-from PyQt5 import QtCore, QtGui
+from PyQt5.QtWidgets import QWidget, QApplication
 
 
 class P1Main(QMainWindow):  # Меню - окно с выбором
